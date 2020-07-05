@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Eatings</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+    <!--START OF HEADER-->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="imgs/food.svg" class="logo-img">
+                    <p class="logo-text">Tasty Eatings</p>
+                </div>
+                 <div class="nav-menu">
+                    <a href="#" class="nav-link">Menu</a>
+                    <a href="#" class="nav-link">Waitlist</a>
+                    <a href="#" class="nav-link">Offers</a>
+                    <a href="#">
+                        <i class="fa fa-shopping-cart nav-cart" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="mobile-navbar" >
+                    <div class="top-mobile-nav">
+                        <div class="logo-mobile">
+                            <img src="imgs/food.svg" class="logo-img-mobile">
+                            <p class="logo-text-mobile">Tasty Eatings</p>
+                        </div>
+                        <i class="fa fa-bars color-white" id="nav-bars"></i>
+                    </div>
+                    <div class="bottom-mobile-nav" id="bottom-mobile-nav">
+                        <div class="mobile-nav-menu" id="mobile-nav-menu">
+                            <a href="#" class="nav-link-mobile">Menu</a>
+                            <a href="#" class="nav-link-mobile ">Waitlist</a>
+                            <a href="#" class="nav-link-mobile ">Offers</a>
+                            <a href="#" >
+                                <i class="fa fa-shopping-cart nav-cart-mobile" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--START OF JUMBOTRON-->
+    <section id="jumbo">
+        <div class="jumbo-overlay"></div>
+        <div class="jumbo-container">
+            <h1 class="jumbo-title">Tasty Eatings</h1>
+            <h2 class="jumbo-tagline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <br/>In venenatis felis eget felis lacinia, at facilisis urna vestibulum.</h2>
+        </div>
+    </section>
+
+
+    <!--START OF MENU-->
+    <section id="menu">
+        <div class="menu-opening">
+            <div class="left-menu-opening"></div>
+            <p class="menu-opening-text">Menu</p>
+            <div class="right-menu-opening"></div>
+        </div>
+        
+        <div class="menu-grid">
+            <div class="food-item">
+                <img src="imgs/pizza.svg" class="food-item-img">
+                <p class="food-item-name">Cheese Pizza</p>
+                <div class="food-item-info">
+                    <p>456 Cals</p>
+                    <p>$19.99</p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="imgs/pasta.svg" class="food-item-img">
+                <p class="food-item-name">Pasta</p>
+                <div class="food-item-info">
+                    <p>486 Cals</p>
+                    <p>$21.37</p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="imgs/meatballs.svg" class="food-item-img">
+                <p class="food-item-name">Meatballs</p>
+                <div class="food-item-info">
+                    <p>375 Cals</p>
+                    <p>$15.99</p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="imgs/steak.svg" class="food-item-img">
+                <p class="food-item-name">Steak</p>
+                <div class="food-item-info">
+                    <p>456 Cals</p>
+                    <p>$22.72</p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="imgs/chicken-breast.svg" class="food-item-img">
+                <p class="food-item-name">Chicken Breast</p>
+                <div class="food-item-info">
+                    <p>342 Cals</p>
+                    <p>$20.99</p>
+                </div>
+            </div>
+
+            <div class="food-item">
+                <img src="imgs/veggie-pasta.svg" class="food-item-img">
+                <p class="food-item-name">Veggie Pasta</p>
+                <div class="food-item-info">
+                    <p>303 Cals</p>
+                    <p>$25.74</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--START OF GREAT DEALS SECTION-->
+    <section id="great-deals">
+        <div class="great-deals-overlay"></div>
+        <p class="great-deals-text">Great Deals. <br/> Great Food.</p>
+    </section>
+
+
+    <!--START OF REWARDS SECTION-->
+    <section id="rewards">
+        <div class="mobile-rewards-heading hide">
+            <p class="rewards-heading">My <br><span class="rewards-heading-span">Tasting Eatings </span> <br>Rewards</p>
+        </div>
+        <img src="imgs/promotion.svg" class="rewards-img">
+        <div class="rewards-content">
+            <p class="rewards-heading">My <br><span class="rewards-heading-span">Tasting Eatings </span> <br>Rewards</p>
+            <p class="rewards-info">Lorem ipsum dolor sit amet, consectetur
+            <br> adipiscing elit. In venenatis felis eget felis 
+            <br>lacinia, at facilisis urna vestibulum.</p>
+            <a href="#" class="rewards-btn">Sign Up</a>
+        </div>
+    </section>
+
+
+    <!--START OF FOOTER-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-menu">
+                <p class="footer-menu-heading">About Tasty Eatings</p>
+                <a href="#" class="footer-menu-link">Our Heritage</a>
+                <a href="#" class="footer-menu-link">FAQ</a>
+            </div>
+    
+            <div class="footer-menu">
+                <p class="footer-menu-heading">Careers</p>
+                <a href="#" class="footer-menu-link">Work With Us</a>
+                <a href="#" class="footer-menu-link">Hourly Opportunities</a>
+                <a href="#" class="footer-menu-link">Management <br> Opportunities</a>
+            </div>
+    
+            <div class="footer-menu">
+                <p class="footer-menu-heading">Follow Us</p>
+                <div class="sm-footer">
+                    <a href=""><i class="fa fa-facebook-official sm-link" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram sm-link" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square sm-link" aria-hidden="true"></i><a>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+
+
+
+
+</body>
+</html>
